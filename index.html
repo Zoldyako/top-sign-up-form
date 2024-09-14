@@ -7,10 +7,11 @@
     <title>TOP - Sign-up Form</title>
 </head>
 <body>
-    <div class="site-title">
-        <h1>Lorem ipsum dolor sit amet </h1>
-        <img src="" alt="">
-        <p>Photo by <a href="#">Author Name</a> on <a href="#">Unsplash</a></p>
+    <div class="site-hero">
+        <h1>Form Sing-up Demo</h1>
+        <p>Photo by 
+            <a href="https://unsplash.com/pt-br/@samsungmemory?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Samsung Memory</a> 
+            on <a href="https://unsplash.com/pt-br/fotografias/uma-placa-mae-de-computador-com-teclado-e-mouse-SF7PHY1v0io" target="_blank">Unsplash</a></p>
     </div>
     <div class="form-container">
         <form action="#" method="post">
@@ -19,20 +20,34 @@
                 <p class="desc">Lorem ipsum dolor sit amet</p>
             </fieldset>
             <fieldset>
-                <label for="first-name">First Name</label>
-                <input type="text" min="3">
-                <label for="last-name">Last Name</label>
-                <input type="text">
-                <label for="email">E-mail</label>
-                <input type="email">
-                <label for="">Phone Number</label>
-                <input type="number" max="11">
-                <label for="">Password</label>
-                <input type="password">
-                <label for="">Confirm Password</label>
-                <input type="password">
+                <filgroup>
+                    <div class="input-container">
+                        <label for="first-name">First Name</label>
+                        <input type="text" min="3">
+                    </div>
+                    <div class="input-container">
+                        <label for="last-name">Last Name</label>
+                        <input type="text">
+                    </div>
+                </filgroup>
+                <div class="input-container">
+                    <label for="email">E-mail</label>
+                    <input type="email">
+                </div>
+                <div class="input-container">
+                    <label for="">Phone Number</label>
+                    <input type="number" max="11">
+                </div>
+                <div class="input-container">
+                    <label for="">Password</label>
+                    <input type="password">
+                </div>
+                <div class="input-container">
+                    <label for="">Confirm Password</label>
+                    <input type="password">
+                </div>
             </fieldset>
-            <fieldset>
+            <fieldset> 
                 <button type="submit">Confirma</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </fieldset>
