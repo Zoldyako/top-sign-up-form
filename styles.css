@@ -8,34 +8,31 @@ body {
     justify-content: center;
     margin: 0;
     height: 100vh;
+}
 
-    & .site-hero {
-        background-image: url(img/sg_memory.jpg);
-        background-size: cover;
-        color: whitesmoke;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        width: 500px;
-        text-align: center;
-        text-shadow: 1px 1px 8px black;
 
-        & h1 {
-            margin-top: 120px;
-        }
+.site-hero {
+    background-image: url(img/rebecca.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    text-shadow: 0 1px 2px black;
 
-        & p {
-            font-weight: bold;
-            font-size: .6rem;
-            
-            & a {
-                color: rgb(186, 221, 221);
-            }
+    & p {
+        font-weight: bold;
+        font-size: .6rem;
+        
+        & a {
+            color: rgb(198, 229, 255);
         }
     }
+}
 
-    & .form-container {
-        overflow: auto;
-        width: 80vw;
-    }
+.form-container {
+    overflow: auto;
+    width: 80vw;
 }
