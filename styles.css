@@ -89,7 +89,25 @@ input {
     border-radius: 4px;
     height: 26px;
     max-width: 350px;
+    font: normal .8rem montserrat;
+    padding: 2px 4px;
+}
 
+
+input:hover {
+    border: 1px solid rgb(250, 194, 172);
+}
+
+
+input:focus {
+    border: 1px solid rgb(245, 163, 131);
+    box-shadow: 0 0 4px rgb(189, 189, 189);
+    outline: none!important;
+}
+
+
+input[type=password]:invalid {
+    border: 1px solid red;
 }
 
 
