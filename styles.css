@@ -99,7 +99,7 @@ input {
 
 
 button {
-    background-color: rgb(255, 193, 143);
+    background-color: rgb(245, 175, 119);
     box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.288);
     border-radius: 4px;
     border: none;
@@ -108,7 +108,24 @@ button {
     font-size: 1rem;
     font-family: 'montserrat';
     font-weight: bold;
-    color: rgb(139, 72, 40);
+    color: rgb(126, 62, 32);
+}
+
+
+button:hover {
+    background-color: rgb(255, 211, 175);
+    color: rgb(184, 101, 63);
+}
+
+
+button:active {
+    background-color: rgb(211, 145, 91);
+    color: rgb(117, 79, 56);
+}
+
+
+span a {
+    color: rgb(129, 61, 6);
 }
 
 
